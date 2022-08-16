@@ -1,13 +1,13 @@
 import { Cell } from "../Cell";
 import { Colors } from "../Colors";
 import { Figure, FigureNames } from "./Figure";
-import blackLogo from "../../assets/black-rock.png";
-import whiteLogo from "../../assets/white-rock.png";
+import blackLogo from "../../assets/black-rook.png";
+import whiteLogo from "../../assets/white-rook.png";
 
-export class Rock extends Figure {
+export class Rook extends Figure {
   constructor(color: Colors, cell: Cell) {
     super(color, cell);
     this.logo = color === Colors.BLACK ? blackLogo : whiteLogo;
-    this.name = FigureNames.ROCK;
+    this.name = FigureNames.ROOK;
   }
 }

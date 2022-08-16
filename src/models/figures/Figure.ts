@@ -8,7 +8,7 @@ export enum FigureNames {
   'KNIGHT' = 'Конь',
   'PAWN' = 'Пешка',
   'QUEEN' = 'Ферзь',
-  'ROCK' = 'Ладья',
+  'ROOK' = 'Ладья',
   'BISHOP' = 'Слон',
 }
 export class Figure {
